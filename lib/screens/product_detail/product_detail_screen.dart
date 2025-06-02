@@ -32,6 +32,7 @@ class _ProductDetailScreenState extends State<ProductDetailScreen> {
                 spacing: 10,
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
+                  Text("Name: ${provider.productDetail?.title ?? ""}"),
                   Text("Images:"),
                   SizedBox(
                     height: 100,
