@@ -3,6 +3,8 @@ import 'package:provider/provider.dart';
 import '../../providers/product_provider.dart';
 
 class ProductListScreen extends StatefulWidget {
+  const ProductListScreen({super.key});
+
   @override
   State<ProductListScreen> createState() => _ProductListScreenState();
 }
