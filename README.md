@@ -1,16 +1,54 @@
-# dummy_json_fetching
+# Project Overview
 
-A new Flutter project.
+This project is a Flutter application, developed with Flutter version **3.27.4**. To run this project successfully, ensure that your system has Flutter SDK **3.27.4 or higher** installed.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
+Ensure you have the following installed:
+- Flutter SDK (>= 3.27.4)
+- Dart
+- Android Studio or VS Code with Flutter extension
+- Emulator or a physical device
 
-A few resources to get you started if this is your first Flutter project:
+### Running the Project
+1. Clone the repository.
+2. Open the terminal in the project directory and run:
+   ```sh
+   flutter pub get
+   ```
+3. To run the application, execute:
+   ```sh
+   flutter run
+   ```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Demo Video and Screen shots
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
+## Core Functionality
+
+Core Functionality of this project: 
+
+- **Fetching Product List**
+- **Fetching and Display Product Details**
+- **Pull To Refresh Product List**
+
+## Code Architecture
+
+The project follows a clean architecture approach, separating concerns into different layers. Below is an overview of the structure:
+
+- **models/**: Contains product model.
+- **providers/**: Contains state management with provider.
+- **screen/**: Contains product list and product details screen.
+- **services/**: Contains Api Calls to fetch product list and product details.
+
+
+
+## 📦 APK Download
+
+
+
+---
+
+Feel free to reach out if you need any clarifications or modifications!
