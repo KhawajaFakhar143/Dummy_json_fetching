@@ -1,3 +1,4 @@
+import 'package:dummy_json_fetching/screens/product_detail/product_detail_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../../providers/product_provider.dart';
@@ -42,7 +43,12 @@ class _ProductListScreenState extends State<ProductListScreen> {
                     subtitle: Text("\$${product.price} • ${product.brand ?? ""}"),
                     trailing: Text(
                         (product.stock ?? 0) > 0 ? "In Stock" : "Out of Stock"),
-                 
+                 onTap: () => Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (_) => ProductDetailScreen(id: product.id ?? 0),
+                      ),
+                    ),
                   );
                 },
               ),
