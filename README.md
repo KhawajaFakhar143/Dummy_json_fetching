@@ -54,7 +54,9 @@ https://github.com/user-attachments/assets/2a890b84-894b-411e-bd2a-792bceda0994
 
 ## 📦 APK Download
 
+You can download the latest APK from the [**Releases**](https://github.com/KhawajaFakhar143/Dummy_json_fetching/releases/tag/v1.0_product_fetch) section of this repository.
 
+Look for the version1.0.apk under **Tags**, and download the `.apk` file attached to that release.
 
 ---
 
