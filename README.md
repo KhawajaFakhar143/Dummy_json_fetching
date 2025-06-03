@@ -22,16 +22,6 @@ Ensure you have the following installed:
    flutter run
    ```
 
-## Demo Video and Screen shots
-
-
-
-https://github.com/user-attachments/assets/557ab075-7b07-43e4-af3c-a3bb0b5730ef ![WhatsApp Image 2025-06-03 at 1 22 12 AM](https://github.com/user-attachments/assets/90e485ca-0296-41f5-8afe-625f9d3d2e08) ![WhatsApp Image 2025-06-03 at 1 22 13 AM](https://github.com/user-attachments/assets/a58aedc8-4346-4643-9543-56df86906c39)
-
-
-
-
-
 ## Core Functionality
 
 Core Functionality of this project: 
@@ -48,6 +38,17 @@ The project follows a clean architecture approach, separating concerns into diff
 - **providers/**: Contains state management with provider.
 - **screen/**: Contains product list and product details screen.
 - **services/**: Contains Api Calls to fetch product list and product details.
+
+## Demo Video and Screen shots
+
+
+
+https://github.com/user-attachments/assets/2a890b84-894b-411e-bd2a-792bceda0994
+
+
+
+![WhatsApp Image 2025-06-03 at 1 22 13 AM](https://github.com/user-attachments/assets/ed0381f3-414a-421a-9039-1538ed9d4c00) ![WhatsApp Image 2025-06-03 at 1 22 12 AM](https://github.com/user-attachments/assets/6e7a90f8-40d3-4a5d-b095-0192ba451c90)
+
 
 
 
